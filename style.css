@@ -1,0 +1,124 @@
+.jumbotron{
+	padding-top: 6rem;
+	background-color: #e2edff;
+}
+footer a:hover{
+	font-size: 25px;
+	font-style: italic;
+
+}
+a#homee:hover{
+	font-size: 25px;
+	color: yellow;
+}
+a#aboutt:hover{
+	font-size: 25px;
+	color: yellow;
+}
+a#projectt:hover{
+	font-size: 25px;
+	color: yellow;
+}
+a#contactt:hover{
+	font-size: 25px;
+	color: yellow;
+}
+section{
+	padding-top: 5rem;
+}
+#about{
+	padding-top: 5rem;
+}
+/* style sesi gallery */
+.img-galeri{
+	width: 100%;
+}
+#galeri .row > *{
+	padding: 0px;
+}
+/* end style sesi gallery */
+
+/* style sesi my logo */
+.logo-box{
+	position: relative;
+	background-color: #0C6EFD;
+	border-radius: 10px;
+	height: 500px;
+	transform-style: preserve-3d;
+}
+.logo-box::before{
+	content: 'MY';
+	position: absolute;
+	color: #fff;
+	font-size: 5em;
+	font-weight: bold;
+	font-style: italic;
+	top: 30px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	transition: 0.5s;
+	opacity: 0;
+}
+.logo-box:hover::before{
+	
+	opacity: .2;
+}
+.logo-box::after{
+	content: 'LOGO';
+	position: absolute;
+	color: #fff;
+	font-size: 4.2em;
+	font-weight: bold;
+	font-style: italic;
+	top: 350px;
+	left: 50%;
+	transform: translate(-50%, 0);
+	transition: 0.5s;
+	opacity: 0;
+	transform: translate(-50%,0);
+}
+.logo-box:hover::after{
+	
+	opacity: .2;
+}
+.logo-name{
+	color: #fff;
+	text-align: center;
+	font-size: 2em;
+	opacity: 0;
+	transition: 0.5s;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	transform: translate3d(0,0,50px);
+}
+.logo-box:hover .logo-name{
+	top: 20px;
+	opacity: 1;
+}
+.logo-detail-button{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translate3d(-50%,0,50px);
+	opacity: 0;
+	transition: 0.5s;
+}
+.logo-box:hover .logo-detail-button{
+	opacity: 1;
+	bottom: 20px;
+}
+.logo-img{
+	left: 50%;
+	top: 50%;
+	position: absolute;
+	transform: translate3d(-50%,-50%,100px);
+	max-width: 200px;
+	transition: 0.5s;
+	z-index: 10;
+	
+}
+.logo-box:hover .logo-img{
+	transform: translate3d(-50%,-50%,100px) scale(1.2);
+}
+/* end style sesi my logo */

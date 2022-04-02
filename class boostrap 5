@@ -1,0 +1,27 @@
+A. Pembungkus
+	*.navbar
+	*.container
+	*.jumbotron
+	*.card
+	
+	*<div
+	*<section
+
+
+
+B.Class CSS BOOSTRAP 5
+	*Navbar-light/ Navbar-dark
+	*container-fluid/ container
+	*m =margin /ms-auto
+	*mt/me/mb/ms=Margin(top/end/bottom/start)
+	*p=padding
+
+	*pt/pe/pb/ps= Padding(top/end/bottom/start) 
+	*fs = font-size, misal fs-4
+	*fw = font-weight, Misal fw-2
+	*text = text-center,text-end,text-primary
+	*bg =background ,Misal bg-primary
+
+	*row =baris *col =column
+	 misal col-md-4
+	*justify-content-center(column)
